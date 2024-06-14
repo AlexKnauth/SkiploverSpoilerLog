@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiploverSpoilerLog", "SkiploverSpoilerLog\SkiploverSpoilerLog.csproj", "{6BF4804D-33D5-4250-BCAC-33FA749F707D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BF4804D-33D5-4250-BCAC-33FA749F707D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF4804D-33D5-4250-BCAC-33FA749F707D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF4804D-33D5-4250-BCAC-33FA749F707D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF4804D-33D5-4250-BCAC-33FA749F707D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8030B2B-7981-4E42-BCA8-8DA198A2363F}
+	EndGlobalSection
+EndGlobal
