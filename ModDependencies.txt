@@ -1,0 +1,5 @@
+CondensedSpoilerLogger
+Randomizer 4
+RandomizerCore
+ItemChanger
+MenuChanger
