@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <!-- Change this to the path of your modded HK installation -->
-    <HollowKnightRefs>C:\Program Files (x86)\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\</HollowKnightRefs>
+    <HollowKnightRefs>..\API</HollowKnightRefs>
     <!-- Change this to the path where you want the ready-to-upload exports to be -->
     <ExportDir>bin\Publish</ExportDir>
     <!-- Uncomment this to generate a documentation file to be included with the mod -->
@@ -14,7 +14,7 @@
     <TargetFramework>net472</TargetFramework>
     <AssemblyTitle>SkiploverSpoilerLog</AssemblyTitle>
     <Product>SkiploverSpoilerLog</Product>
-    <Description>A Hollow Knight Mod</Description>
+    <Description>A Hollow Knight Randomizer add-on to create a Skiplover spoiler log</Description>
     <Copyright>Copyright ©  2024</Copyright>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
