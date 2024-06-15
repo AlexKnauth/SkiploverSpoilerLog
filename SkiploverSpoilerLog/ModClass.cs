@@ -16,6 +16,7 @@ using RandomizerCore.Randomization;
 using RandomizerMod.Logging;
 using RandomizerMod.RC;
 using RandomizerMod.Settings;
+using CondensedSpoilerLogger.Loggers;
 
 namespace SkiploverSpoilerLog
 {
@@ -36,11 +37,18 @@ namespace SkiploverSpoilerLog
         //    Instance = this;
         //}
 
+        public static IEnumerable<CslLogger> CreateLoggers()
+        {
+            yield return new SkiploverSpoiler();
+        }
+
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects)
         {
             Log("Initializing");
 
             Instance = this;
+
+            ModHooks.FinishedLoadingModsHook += () => LogManager.AddLogger(SkiploverLogWriter.Instance);
 
             Log("Initialized");
         }
